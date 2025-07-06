@@ -1,0 +1,42 @@
+# OS-generated junk
+.DS_Store
+Thumbs.db
+
+# Node (if used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if used for LLM scripts or helpers)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+
+# Mac-specific
+*.DS_Store
+
+# Secrets / API Keys / Tokens
+*.key
+*.pem
+*.token
+*.secrets.json
+openai_api_key.txt
+
+# VS Code / IDE settings
+.vscode/
+
+# Logs
+*.log
+
+# Make.com / n8n backup files
+*.backup.json
+*.blueprint.json.bak
+
+# Optional: ignore local builds or notes
+build/
+notes/
+drafts/
